@@ -43,10 +43,11 @@ body {
 
 /* header */
 .header {
+  background-color:rgb(0, 0, 0);
 }
 
 .header__inner {
-  padding: 50px 0;
+  padding: 30px 0;
   display: flex;
   justify-content: space-between;
   align-items:center;
@@ -54,21 +55,37 @@ body {
 }
 .logo {
 }
+.logo__img {
+  width: 150px;
+}
 .nav__list {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 20px;
   font-size: 20px;
   text-transform: uppercase;
 }
 .nav__item {
+  font-weight: 600;
+  transition: color .2s ease-in;
+}
+.nav__item:hover{
+color:#f8c419;
 }
 .social__list {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 30px;
 }
 .social__item {
+}
+.social__svg{
+  width: 45px;
+  color:#f0f0f0;
+  transition: color .2s ease-in;
+}
+.social__svg:hover{
+  color:#f8c419;
 }
