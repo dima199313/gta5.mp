@@ -106,10 +106,9 @@ body {
 }
 .home__inner {
   position: relative;
-  padding: 100px 0;
+  padding: 110px 0;
 }
 .title-h2 {
-
   font-size: 50px;
 }
 .title-h1 span {
@@ -143,6 +142,75 @@ body {
   background-color:#141313;
   color:#f8c419;
 }
+
+/* present */
+
+.present {
+  background-color:#252525;
+}
+.present__inner {
+  display: flex;
+  gap: 20px;
+  padding: 100px 0 100px;
+}
+.present__img-wrapper {
+}
+.present__img {
+  border-radius: 20px;
+  width: 800px;
+}
+
+.present__description{
+  text-align: start;
+}
+.title-h3{
+font-size: 75px;
+}
+.title-h2--uppercase{
+  text-transform: uppercase;
+  
+}
+.title-h3--yellow{
+  text-transform: uppercase;
+  color:#f8c419;
+}
+.present__text {
+  padding-top: 40px;
+  font-size: 30px;
+  font-weight: 500;
+  color:#f0f0f0;
+  line-height: 1.5;
+  text-align: start;
+  max-width: 1116px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer */
 .footer {
