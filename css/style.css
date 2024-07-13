@@ -152,8 +152,7 @@ body {
   gap: 20px;
   padding: 100px 0 100px;
 }
-.present__img-wrapper{
-
+.present__img-wrapper {
   max-width: 800px;
 }
 .present__img {
@@ -163,7 +162,6 @@ body {
 
 .present__description {
   text-align: start;
-
 }
 .title-h3 {
   font-size: 75px;
@@ -188,30 +186,41 @@ body {
 /* step */
 
 .step {
-  background: #000000;
-  background: linear-gradient(0deg, #000000 38%, #141313 100%);
+  /* background: #000000;
+  background: linear-gradient(0deg, #000000 38%, #141313 100%); */
+  position: relative;
+  background: url(../img/step/step-bg.jpg) center center / cover no-repeat;
+  width: 100%;
+}
+.step::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #171717a5;
 }
 .step__inner {
-  padding: 100px 0 100px;
+  position: relative;
+  padding: 195px 0 195px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  gap:20px;
+  gap: 20px;
 }
 
 .title-h2--uppercase {
   text-transform: uppercase;
 }
 
-.title-h2--pt{
+.title-h2--pt {
   padding-top: 25px;
 }
 .step__list {
   padding-top: 80px;
   display: flex;
   justify-content: center;
-  align-items:start;
+  align-items: start;
   flex-wrap: wrap;
   gap: 30px;
   margin: 0 auto;
@@ -219,7 +228,7 @@ body {
 
 .step__card {
   display: flex;
-  align-items:start;
+  align-items: start;
   flex-direction: column;
   gap: 25px;
   /* padding: 25px 0 ; */
@@ -229,36 +238,123 @@ body {
 .title-h4--uppercase {
   text-transform: uppercase;
 }
-.title-h4--yellow{
+.title-h4--yellow {
   color: #f8c419;
 }
 
 .step__card-text {
-
   font-size: 20px;
   font-weight: 500;
   color: #f0f0f0;
   line-height: 1.5;
   text-align: start;
-
 }
 .step__card-link {
-  color: #f8c419
+  color: #f8c419;
 }
 
 .step__card-btn {
-
   padding: 20px 20px;
   background-color: #f8c419;
   text-transform: uppercase;
   font-size: 25px;
   font-weight: 500;
   transition: all 0.2s ease;
-
 }
 .step__card-btn:hover {
   background-color: #141313;
   color: #f8c419;
+}
+
+/* adwance */
+
+.adwance {
+  background: #000000;
+  background: linear-gradient(0deg, #000000 38%, #141313 100%);
+}
+
+.awance__inner {
+
+  padding: 110px 15px;
+}
+.adwance__list {
+  
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.adwance__item {
+
+  width: 650px;
+  min-height: 350px;
+  background-color:#f8c419;
+
+}
+.adwance__item--bg {
+  background-color:#141313;
+}
+.adwance__item-wrapper1 {
+  padding: 50px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  
+}
+.adwance__item-wrapper2 {
+
+  padding: 50px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  color:#000000;
+}
+.adwance__icon{
+width: 60px;
+
+}
+.book{
+
+}
+.chat{
+
+}
+.title__h4 {
+}
+.title-h4--uppercase {
+}
+.adwance__text {
+}
+.adwance__btn1 {
+  padding: 20px 20px;
+  background-color: #f8c419;
+  text-transform: uppercase;
+  
+  color:#000000;
+  font-size: 25px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+.adwance__btn1:hover {
+  background-color: #000000;
+  color: #f8c419;
+}
+.adwance__btn2 {
+  padding: 20px 20px;
+  background-color: #141313;
+  color: #f0f0f0;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+.adwance__btn2:hover {
+  /* background-color: #2c2c2c;
+  color: #f8c419; */
+  background-color: #faf607;
+  color: #000000;
 }
 
 /* footer */
