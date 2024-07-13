@@ -152,15 +152,18 @@ body {
   gap: 20px;
   padding: 100px 0 100px;
 }
-.present__img-wrapper {
+.present__img-wrapper{
+
+  max-width: 800px;
 }
 .present__img {
   border-radius: 20px;
-  width: 800px;
+  width: 100%;
 }
 
 .present__description {
   text-align: start;
+
 }
 .title-h3 {
   font-size: 75px;
@@ -189,7 +192,7 @@ body {
   background: linear-gradient(0deg, #000000 38%, #141313 100%);
 }
 .step__inner {
-  padding: 110px 0 110px;
+  padding: 100px 0 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -207,21 +210,22 @@ body {
 .step__list {
   padding-top: 80px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items:start;
+  flex-wrap: wrap;
   gap: 30px;
+  margin: 0 auto;
 }
-.step__item {
-}
+
 .step__card {
   display: flex;
   align-items:start;
   flex-direction: column;
   gap: 25px;
-  padding: 25px 0 ;
+  /* padding: 25px 0 ; */
   max-width: 500px;
 }
-.title__h4 {
-}
+
 .title-h4--uppercase {
   text-transform: uppercase;
 }
@@ -236,13 +240,12 @@ body {
   color: #f0f0f0;
   line-height: 1.5;
   text-align: start;
-  max-width: 450px ;
+
 }
 .step__card-link {
   color: #f8c419
 }
-.step__card-btn {
-}
+
 .step__card-btn {
 
   padding: 20px 20px;
