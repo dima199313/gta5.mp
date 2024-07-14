@@ -1,4 +1,3 @@
-
 /* preview */
 
 .preview {
@@ -7,7 +6,6 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-
 }
 
 .preview::before {
@@ -32,7 +30,7 @@
   font-weight: 300;
   line-height: 1.3;
 }
-.subtitle--pt{
+.subtitle--pt {
   padding-top: 25px;
 }
 
@@ -61,15 +59,15 @@
   border-top: 2px solid #f8c419;
   border-left: 2px solid #f8c419;
   border-bottom: 2px solid #f8c419;
-  border-radius:20px;
+  border-radius: 20px;
   padding: 50px 30px 50px 45px;
 }
 .title-h5 {
   font-size: 60px;
   text-transform: uppercase;
 }
-.title-h5 span{
- color:#f8c419;
+.title-h5 span {
+  color: #f8c419;
 }
 
 .state__link {

@@ -84,8 +84,11 @@ body {
   color: #f0f0f0;
   transition: color 0.2s ease-in;
 }
-.social__svg:hover {
-  color: #f8c419;
+.social__svg.discord:hover {
+  color: #1D23BE;
+}
+.social__svg.youtube:hover {
+  color: #FF0000;
 }
 
 /* home */
