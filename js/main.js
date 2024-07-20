@@ -1,0 +1,2 @@
+//scrooll effects
+AOS.init();

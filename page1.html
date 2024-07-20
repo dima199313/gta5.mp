@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="dimas1993_13" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,7 +18,7 @@
     <div class="wrapper">
       <header class="header">
         <div class="container">
-          <div class="header__inner">
+          <div data-aos="fade-down" class="header__inner">
             <div class="logo">
               <a href="./index.html" class="logo__link"
                 ><img src="./img/logo/logo.png" alt="logo" class="logo__img"
@@ -83,7 +84,7 @@
       <main class="main"></main>
       <footer class="footer">
         <div class="container">
-          <div class="footer__inner">
+          <div data-aos="fade-up" class="footer__inner">
             <div class="footer__document">
               <h4 class="h4__title">Документы</h4>
               <div class="delimiter"></div>
@@ -155,5 +156,7 @@
         </div>
       </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
