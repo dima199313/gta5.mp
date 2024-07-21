@@ -22,34 +22,43 @@
     <div class="wrapper">
       <header class="header">
         <div class="container">
-          <div data-aos="fade-down" class="header__inner">
+
+
+          <div class="header__inner">
             <div class="logo">
               <a href="./index.html" class="logo__link"
                 ><img src="./img/logo/logo.png" alt="logo" class="logo__img"
               /></a>
             </div>
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a href="./index.html" class="nav__link">Главная</a>
-              </li>
-              <li class="nav__item">
-                <a href="./server-rules.html" class="nav__link"
-                  >Правила сервера</a
-                >
-              </li>
-              <li class="nav__item">
-                <a href="./state-laws.html" class="nav__link">Законы штата</a>
-              </li>
-              <li class="nav__item">
-                <a href="./fractions.html" class="nav__link">Фракции</a>
-              </li>
-              <li class="nav__item">
-                <a href="./donat.html" class="nav__link">Донат</a>
-              </li>
-              <li class="nav__item">
-                <a href="./personal-area.html" class="nav__link">Личный кабинет</a>
-              </li>
-            </ul>
+            <nav class="nav">
+
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="./index.html" class="nav__link">Главная</a>
+                </li>
+                <li class="nav__item">
+                  <a href="./server-rules.html" class="nav__link"
+                    >Правила сервера</a
+                  >
+                </li>
+                <li class="nav__item">
+                  <a href="./state-laws.html" class="nav__link">Законы штата</a>
+                </li>
+                <li class="nav__item">
+                  <a href="./fractions.html" class="nav__link">Фракции</a>
+                </li>
+                <li class="nav__item">
+                  <a href="./donat.html" class="nav__link">Донат</a>
+                </li>
+                <li class="nav__item">
+                  <a href="./personal-area.html" class="nav__link">Личный кабинет</a>
+                </li>
+              </ul>
+            </nav>
+
+
+
+
             <ul class="social__list">
               <li class="social__item">
                 <a href="https://www.youtube.com/@RealLifeGTA-5/videos" target="_blank" class="social__link">
@@ -82,7 +91,13 @@
                 </a>
               </li>
             </ul>
+            <div class="burger">
+              <span></span>
+            </div>
           </div>
+
+
+          
         </div>
       </header>
       <main class="main">
@@ -110,9 +125,9 @@
           <div class="container">
             <div class="present__inner">
               <div class="present__description">
-                <h2 class="title-h2 title-h2--uppercase">Получи 10 000$</h2>
-                <h2 class="title-h2 title-h2--uppercase">По промокоду</h2>
-                <h3 class="title-h3 title-h3--yellow">gta5</h3>
+                <h2 class="present-h2 title-h2 title-h2--uppercase">Получи 10 000$</h2>
+                <h2 class="present-h2 title-h2 title-h2--uppercase">По промокоду</h2>
+                <h3 class="title-h3 present-h3 title-h3--yellow">gta5</h3>
 
                 <p class="present__text">
                   На эти деньги ты сможешь приобрести себе первый автомобиль,
@@ -135,7 +150,7 @@
         data-aos-duration="1500" id="step" class="step">
           <div class="container">
             <div class="step__inner">
-              <h2 class="title-h2 title-h2--uppercase title-h2--pt">
+              <h2 class="step-h2 title-h2 title-h2--uppercase title-h2--pt">
                 Играй с нами
               </h2>
               <ul class="step__list">
@@ -146,7 +161,7 @@
                     </h4>
                     <h4 class="title__h4 title-h4--uppercase">Купить GTA5</h4>
                     <p class="step__card-text">
-                      Тебе понадобится лицензионная копия игры GTA V, купить её
+                      Тебе понадобится лицензионная копия игры GTA5, купить её
                       можно в электронном магазине
                       <a
                         href="https://store.steampowered.com/"
@@ -175,7 +190,7 @@
                     <p class="step__card-text">
                       В отдельную папку распакуйте лаунчер сервера и запустите
                       его. При запуске, укажите папку распаковки лаунчера , а
-                      затем — папку с игрой GTA 5.
+                      затем — папку с игрой GTA5
                     </p>
                     <a
                       href="https://rage.mp/ru#"
@@ -203,56 +218,59 @@
           </div>
         </section>
         <section class="adwance">
-          <div class="awance__inner">
-            <ul class="adwance__list">
-              <li data-aos="fade-right" data-aos-duration="1000" class="adwance__item adwance__item--bg">
-                <div class="adwance__item-wrapper1">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="currentColor"
-                    class="adwance__icon book"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"
-                    />
-                  </svg>
-                  <h4 class="title__h4 title-h4--uppercase">Правила сервера</h4>
-                  <p class="adwance__text">
-                    Обязательно ознакомьтесь перед началом игры
-                  </p>
-                  <a href="./server-rules.html" class="adwance__btn1"
-                    >Перейти к правилам</a
-                  >
-                </div>
-              </li>
-              <li data-aos="fade-left" data-aos-duration="1000" class="adwance__item">
-                <div class="adwance__item-wrapper2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="currentColor"
-                    class="adwance__icon chat"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"
-                    />
-                    <path
-                      d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6m0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"
-                    />
-                  </svg>
-                  <h4 class="title__h4 title-h4--uppercase">
-                    Связаться с поддержкой
-                  </h4>
-                  <p class="adwance__text">Если вы столкнулись с проблемой</p>
-                  <a href="#" class="adwance__btn2">Откройте тикет</a>
-                </div>
-              </li>
-            </ul>
+          <div class="container">
+            <div class="awance__inner">
+              <ul class="adwance__list">
+                <li class="adwance__item adwance__item--bg">
+                  <div class="adwance__item-wrapper1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      class="adwance__icon book"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"
+                      />
+                    </svg>
+                    <h4 class="adwance-h4 title__h4 title-h4--uppercase">Правила сервера</h4>
+                    <p class="adwance__text">
+                      Обязательно ознакомьтесь перед началом игры
+                    </p>
+                    <a href="./server-rules.html" class="adwance__btn1"
+                      >Перейти к правилам</a
+                    >
+                  </div>
+                </li>
+                <li class="adwance__item">
+                  <div class="adwance__item-wrapper2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      class="adwance__icon chat"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"
+                      />
+                      <path
+                        d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6m0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"
+                      />
+                    </svg>
+                    <h4 class="adwance-h4 title__h4 title-h4--uppercase">
+                      Связаться с поддержкой
+                    </h4>
+                    <p class="adwance__text">Если вы столкнулись с проблемой</p>
+                    <a href="#" class="adwance__btn2">Откройте тикет</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
           </div>
         </section>
       </main>
-      <footer class="footer">
+      <footer class="footer n">
         <div class="container">
           <div data-aos="fade-up" class="footer__inner">
             <div class="footer__document">
@@ -274,7 +292,7 @@
             <div class="footer__social">
               <h4 class="title__h4">Социальные сети</h4>
               <div class="delimiter"></div>
-              <ul class="social__list">
+              <ul class="footer__social--mt social__list">
                 <li class="social__item">
                   <a href="https://www.youtube.com/@RealLifeGTA-5/videos" target="_blank" class="social__link">
                     <svg
