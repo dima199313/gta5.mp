@@ -337,7 +337,7 @@ body {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  gap: 25px;
+  gap: 65px;
 }
 .adwance__item {
 

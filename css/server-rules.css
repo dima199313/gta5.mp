@@ -16,8 +16,9 @@
 .rules__inner {
   position: relative;
   padding: 110px 0 110px 110px;
-
 }
+
+
 
 /* .rules {
   background: rgb(0, 0, 0);
@@ -65,4 +66,22 @@
 }
 .rules__link:hover {
   color:#f8c419;
+}
+
+
+@media(max-width:900px){
+  .rules__inner {
+    position: relative;
+    padding: 110px 0 110px 20px;
+  }
+}
+@media(max-width:600px){
+  h2.rules-h2{
+    font-size: 30px;
+  }
+}
+@media(max-width:470px){
+  h4.rules-h4{
+    font-size: 20px;
+  }
 }

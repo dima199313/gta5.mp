@@ -10,7 +10,7 @@
     rgba(70, 70, 70, 1) 100%
   );
 }
-.factions__inner {
+.fractions__inner {
   padding: 110px 0;
 
 }
@@ -18,7 +18,7 @@
   text-align: center;
 
 }
-.factions__title-h2{
+.fractions__title-h2{
   font-size: 80px;
 }
 .title-h2--yellow{
@@ -27,22 +27,22 @@
 .fraction__list {
   padding-top: 50px;
 }
-.factions__item {
+.fractions__item {
   padding-top: 40px;
   display: flex;
   gap: 40px;
 }
-.factions__item--reverse {
+.fractions__item--reverse {
   flex-direction: row-reverse;
 }
-.factions__img-wrapper {
+.fractions__img-wrapper {
   width: 1024px;
   object-fit: cover;
 }
-.factions__img {
+.fractions__img {
   width: 100%;
 }
-.factions__description {
+.fractions__description {
   width: 566px;
   display: flex;
   flex-direction: column;
@@ -52,6 +52,101 @@
 .title__h4--uppercase {
   text-transform: uppercase;
 }
-.factions__text {
+.fractions__text {
   font-size: 19px;
+}
+
+
+@media(max-width:1400px){
+  .fractions__img-wrapper{
+    width: 1000px;
+  }
+  h2.fractions-h2{
+    font-size: 30px;
+  }
+  h4.fractions-h4{
+    font-size: 20px;
+  }
+  .fractions__text{
+    font-size: 16px;
+  }
+}
+@media(max-width:1324px){
+  .fractions__item--reverse{
+    flex-direction: row;
+  }
+  .fraction__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:40px;
+  }
+  .fractions__item{
+    position: relative;
+    padding-top: 0px;
+  }
+  .fractions__description{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+  }
+
+  .fractions__img-wrapper::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #00000095;
+  }
+  
+}
+@media(max-width:1054px){
+  .fractions__img-wrapper{
+    width: 700px;
+  }
+}
+@media(max-width:750px){
+  .fractions__description{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    max-width: 400px;
+  }
+  .fractions__img-wrapper{
+    /* width: 592px; */
+    object-fit: cover;
+
+    width: 430px;
+  }
+  .fractions__img{
+    height: 500px;
+  }
+  h2.fractions-h2{
+    font-size: 20px;
+  }
+  h4.fractions-h4{
+    font-size: 18px;
+  }
+  .fractions__img-wrapper::before {
+    background-color: #000000c0;
+  }
+}
+@media(max-width:475px){
+  .fractions__text{
+    font-size: 13px;
+  }
+  .fractions__img{
+    height: 380px;
+  }
+  .fractions__img-wrapper{
+
+
+    width: 350px;
+  }
+  .fractions__description{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    max-width: 335px;
+  }
 }

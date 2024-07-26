@@ -42,7 +42,7 @@
     117deg,
     rgba(0, 0, 0, 1) 24%,
     rgba(37, 37, 37, 1) 65%,
-    rgba(70, 70, 70, 1) 100%
+    rgb(46, 46, 46) 100%
   );
 }
 .state__inner {
@@ -63,6 +63,7 @@
   border-bottom: 2px solid #f8c419;
   border-radius: 20px;
   padding: 30px 30px 30px 45px;
+  gap: 15px;
 }
 .title-h5 {
   font-size: 45px;
@@ -83,4 +84,34 @@
 .state__link:hover {
   background-color: #141313;
   color: #f8c419;
+}
+
+
+
+@media(max-width:1226px){
+  h2.preview-h2{
+    font-size: 40px;
+  }
+  h5.state-h5{
+    font-size: 30px;
+  }
+  .state__link{
+    font-size: 16px;
+  }
+}
+@media(max-width:860px){
+  .state__item{
+    flex-direction: column;
+    align-items:flex-start;
+    padding: 20px;
+  }
+  h2.preview-h2{
+    font-size: 30px;
+  }
+  h5.state-h5{
+    font-size: 25px;
+  }
+  .state__link{
+    padding: 10px;
+  }
 }
