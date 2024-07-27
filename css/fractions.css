@@ -116,7 +116,7 @@
     /* width: 592px; */
     object-fit: cover;
 
-    width: 430px;
+    /* width: 430px; */
   }
   .fractions__img{
     height: 500px;
@@ -128,7 +128,15 @@
     font-size: 18px;
   }
   .fractions__img-wrapper::before {
-    background-color: #000000c0;
+    background-color: #0000006b;
+  }
+}
+@media(max-width:600px){
+  .fractions__inner{
+    padding: 70px 0;
+  }
+  .fractions__title h2.fractions__title-h2{
+    font-size: 30px;
   }
 }
 @media(max-width:475px){
@@ -136,7 +144,7 @@
     font-size: 13px;
   }
   .fractions__img{
-    height: 380px;
+    height: 335px;
   }
   .fractions__img-wrapper{
 
@@ -148,5 +156,6 @@
     top: 10px;
     left: 10px;
     max-width: 335px;
+    gap:1px
   }
 }
