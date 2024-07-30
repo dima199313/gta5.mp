@@ -40,6 +40,7 @@
   object-fit: cover;
 }
 .fractions__img {
+  object-fit: cover;
   width: 100%;
 }
 .fractions__description {
@@ -113,13 +114,13 @@
     max-width: 400px;
   }
   .fractions__img-wrapper{
-    /* width: 592px; */
-    object-fit: cover;
 
-    /* width: 430px; */
+
+    width: 430px;
   }
   .fractions__img{
     height: 500px;
+    width: 100%;
   }
   h2.fractions-h2{
     font-size: 20px;
@@ -128,7 +129,7 @@
     font-size: 18px;
   }
   .fractions__img-wrapper::before {
-    background-color: #0000006b;
+    background-color: #0000009a;
   }
 }
 @media(max-width:600px){
