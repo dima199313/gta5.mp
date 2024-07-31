@@ -470,12 +470,36 @@ width: 60px;
 }
 
 .footer__bottom {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+
+  gap: 25px;
   background-color: #141313;
   padding: 20px 0;
   border-radius: 15px 15px 0 0;
 }
-.footer__copyright {
-  text-align: center;
+
+
+.advertising {
+  background-color:#2a2929;
+  padding: 15px;
+  /* border-radius: 15px; */
+}
+
+.advertising__list {
+  padding-top: 3px;
+}
+.advertising__item {
+  margin-bottom: 5px;
+  &:last-child{
+    margin-bottom: 0;
+  }
+}
+.advertising__item span:hover {
+
+    color: #f8c419;
+
 }
 
 
@@ -620,6 +644,9 @@ width: 60px;
   .home__link{
     font-size: 25px;
   }
+  .footer__bottom{
+    flex-direction: column;
+  }
 
 }
 
@@ -730,4 +757,4 @@ width: 60px;
 
 
 
-@media(max-width:900px){}
+
